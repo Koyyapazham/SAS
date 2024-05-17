@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.tb-column {
+  float: left;
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+    height: 800px;
+}
+
+.two {
+  padding-left: 5px;
+}
+
+.three {
+   padding-left: 5px;
+}
+
+.four {
+  padding-left: 5px;
+}
+.title{
+  width: 100%;
+  height: 25px;
+  background-color: rgb(51, 21, 21);
+  font-size: small;
+  color: aliceblue;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.text-wrap{
+  text-wrap: true;
+}
+.basic-table {
+  width: 100%;
+  align-content: center;
+  border: 2px solid;
+  font-size: 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.basic-tr{
+  border: .5px solid;
+}
+
+.basic-first-column{
+  background-color: rgb(165, 215, 248);
+  text-transform: capitalize;
+  
+
+}
+.basic-header{
+  background-color: black;
+  background: rgb(11, 2, 61);
+  font-style:bold;
+  color: azure;
+}

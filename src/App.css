@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.html, body{
+  overflow-x: hidden;
+  }
+.navbardiv{
+  background-color: powderblue;
+  height: 910px;
+  width: 240px;
+  align-content: center;
+  padding-left: 15%;
+}
+.navdiv{
+  background-color: rgb(13, 9, 77);
+  height: 95%;
+  width: 80%;
+  align-self: center;
+  padding-left: 10%;
+  padding-top: 15px;
+  border-radius: 15px;
+}
+
+.nav-button{
+  background-color: aliceblue;
+  width: 80%;
+  height: 40px;
+  align-self: center;
+  border-radius: 15px;
+  font-size:xx-small;
+}
+.header{
+  height: 100px;
+  width: 1610px;
+  background-color: rgb(13, 9, 77);
+  vertical-align: middle;
+  align-self: center;
+  padding-left: 600px;
+  padding-top: 40px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: larger;
+  font-weight: bold;
+  color: aliceblue;
+
+}
+.footer{
+  height: 20px;
+  width: 1610px;
+  background-color: rgb(13, 9, 77);
+  padding-top: 2px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.router{
+  height: 800px;
+  width: 1610px;
+  background-color: powderblue;
+  border-radius: 10px;
+  
+ 
+}
+.products1 {
+  height: 100px;
+  width: 80%;
+  background-color: powderblue;
+  padding-left: 350px;
+  padding-top: 50px;
+  align-content: center;
+  vertical-align: top;
+  justify-content: center;
+  font-size: 1rem;
+}
+.app-header{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  padding-left: 700px;
+}
+.select-container {
+  height: 150px;
+  width: 100%;
+ /* background-color: rgb(214, 216, 208);*/
+  background: powderblue;
+  padding-top: 40px;
+  align-content: left;
+  vertical-align: middle;
+  justify-content: center;
+  font-size: 1rem;
+  
+
+}
+.select-table {
+  width: 80%;
+  vertical-align: top;
+  font-size: small;
+  padding-left: 200px;
+}
+.column {
+  float: left;
+  height: 700px;
+}
+
+.right {
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  padding-left: 5px;
+}
+
+.middle {
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  padding-left: 5px;
+}
+.basic-table {
+  width: 100%;
+  align-content: center;
+  border: 2px solid;
+  font-size: 15px;
+}
+.basic-tr{
+  border: .5px solid;
+}
+
+.basic-first-column{
+  background-color: rgb(165, 215, 248);
+
+}
+.basic-header{
+  background-color: black;
+  background: rgb(11, 2, 61);
+  font-style:bold;
+  color: azure;
+}
+/* table, th, td {
+  border: 1px solid;
+} */
+ 
+thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: hsl(20, 50%, 70%);
+}
+thead th:first-child {
+  left: 0;
+  z-index: 3;
+}
+
+.column {
+  float: left;
+}
+
+.top {
+  width: 33.33%;
+  height: 300px;
+  padding-top: 5px;
+  border: 5px solid;
+  border-color: powderblue;
+  border-radius: 25px;
+}
+.left {
+   background-color: rgba(255, 255, 255);
+ }
+
+.right {
+  background-color: rgba(255, 255, 255);
+  padding-left: 5px;
+}
+
+.middle {
+  background-color: rgba(255, 255, 255);
+  padding-left: 5px;
+ }
+
+.bottom {
+  width: 33.33%;
+  height: 300px;
+  padding-top: 5px;
+  border: 5px solid;
+  border-color: powderblue;
+  border-radius: 25px;
+}
+.left {
+   background-color: rgba(255, 255, 255);
+ }
+
+.right {
+  background-color: rgba(255, 255, 255);
+  padding-left: 5px;
+}
+
+.middle {
+  background-color: rgba(255, 255, 255);
+  padding-left: 5px;
+ }
+
+.overview-button {
+  
+  background-image: linear-gradient(to right,Grey, White);
+  width: 160px;
+  height:80px;
+   
+}
+/*
+* Fixed table
+*/
+/* 
+/* default styling. Nothing to do with freexing first row and column 
+main {display: flex;}
+main > * {border: 1px solid;}
+table {border-collapse: collapse; font-family: helvetica}
+td, th {border:  1px solid;
+      padding: 10px;
+      min-width: 200px;
+      background: white;
+      box-sizing: border-box;
+      text-align: left;
+}
+.table-container {
+  position: relative;
+  max-height:  300px;
+  width: 500px;
+  overflow: scroll;
+}
+
+thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: hsl(20, 50%, 70%);
+}
+
+thead th:first-child {
+  left: 0;
+  z-index: 3;
+}
+
+tfoot {
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: 2;
+}
+
+tfoot td {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  background: hsl(20, 50%, 70%);
+}
+
+tfoot td:first-child {
+  z-index: 3;
+}
+
+tbody {
+  overflow: scroll;
+  height: 200px;
+}
+
+/* MAKE LEFT COLUMN FIXEZ 
+tr > :first-child {
+  position: -webkit-sticky;
+  position: sticky; 
+  background: hsl(180, 50%, 70%);
+  left: 0; 
+}
+/* don't do this 
+tr > :first-child {
+  box-shadow: inset 0px 1px black;
+}
+*/
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+} */
+
+/* .dropdown:hover .dropdown-content {
+  display: block;
+} */
