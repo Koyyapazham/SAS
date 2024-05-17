@@ -1,5 +1,5 @@
 {
-  "name": "abc-store",
+  "name": "sas",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "******************************************************************************************************************************************\r Git commands\r ## Get code from GitHub\r $git clone https://github.com/ganapathygit/IonicApps.git",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

@@ -1,13 +1,13 @@
-# Store-ReactJS
+# SAS
 
 ******************************************************************************************************************************************
 Git commands
 ## Get code from GitHub
-$git clone https://github.com/ganapathygit/IonicApps.git
+$git clone https://github.com/Koyyapazham/SAS.git
 
 
 ## 1. Add origin
-$ git remote add origin https://github.com/ganapathygit/IonicApps.git
+$ git remote add origin https://github.com/Koyyapazham/SAS.git
 
 ##2. Add .
 $ git add .
